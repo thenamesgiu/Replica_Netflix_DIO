@@ -1,0 +1,41 @@
+@media screen and (max-width:750px){
+    body{
+        overflow-x: hidden;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao{
+        margin-top: 25px;
+      
+    }
+
+    .filme-principal{
+       background-position: 25%;
+    }
+
+    header nav{
+        margin-top: 5%;
+        margin-bottom: 3.5%;
+    }
+}
+
+@media screen and (max-width:1220px){
+    body{
+        overflow-x: hidden;
+    }
+    .botao{
+        margin-top: 25px;
+      
+    }
+   
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 50%;
+    }
+}

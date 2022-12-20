@@ -1,0 +1,110 @@
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+    --cinzaheader: #AAA; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 50px;
+    cursor: default;
+}
+
+header nav {
+  
+}
+
+header nav a{
+    text-decoration:  none;
+    color: var(--cinzaheader);
+    margin-right:  15px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: #FFF;
+}
+
+.filme-principal{
+    font-size: 200%;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/house-cards.jpg') ;
+    height: 850px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 5%;
+}
+
+.titulo{
+    margin-bottom: 1%;
+    margin-top: 10%;
+    font-size: 200%;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    cursor: pointer;
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: #FFFFFF;
+    font-size: 55%;
+    padding: 32px 100px;
+    margin-right: 4%;
+    transition: .3s ease all;
+}
+
+.descricao{
+    font-size: 75%;
+}
+.botao:hover{
+    
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 3%;
+    margin-right: 1%;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
