@@ -9,7 +9,7 @@ A página presente no repositório apresenta responsividade, se adaptando tanto 
 
 ## Resolução desktop 💻
 ![Visualização da página em resolução desktop](https://github.com/thenamesgiu/Replica_Netflix_DIO/blob/main/previews/Desk1-prev.PNG)
-![Visualização da página em resolução desktop](https://github.com/thenamesgiu/Replica_Netflix_DIO/blob/main/previews/Desk2-prev.PNG)
+![Visualização da página em resolução desktop](https://github.com/thenamesgiu/Replica_Netflix_DIO/blob/main/previews/Desk-prev.PNG)
 
 
 ## Resolução mobile 📱
